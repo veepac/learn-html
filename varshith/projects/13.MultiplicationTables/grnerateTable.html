@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>
+        genereteTable.html
+    </title>
+    <script src="generatetable.js"></script>
     <link rel="stylesheet" href="../styles/global-style.css" />
-    <script src="script.js"></script>
 </head>
 
-<body onload="test()">
+<body>
     <div id="Banner">
         <table width="100%">
             </tr>
@@ -19,7 +17,7 @@
                     Name: Varshith
                 </td>
                 <td width="33%">
-                    functions
+                    operations
                 </td>
                 <td width="33%">
                     Date: unknown
@@ -29,8 +27,18 @@
         </table>
     </div>
     <div id="body">
-        <br />
-        <a href="../home.html">home</a>
+        <p>
+            enter a number for me to generate a number:
+        </p>
+        <input type="number" id="inputNumber" />
+        <button id="tableGenetator" onclick="genTabe()">
+            generate a table!!
+        </button>
+        <button type="button" onclick="erease()">
+            clear
+        </button>
+        <p id="ans"></p>
+        <p id="err" style="color: red;"></p>
     </div>
     <div id="footer">
         

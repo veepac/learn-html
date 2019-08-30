@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/global-style.css">
+    <title>
+        greet me
+    </title>
+    <script src="greetLogic.js"></script>
+    <link rel="stylesheet" href="../styles/global-style.css" />
 </head>
 
 <body>
@@ -18,19 +17,21 @@
                     Name: Varshith
                 </td>
                 <td width="33%">
-                    Paragraph Tag
+                    operations
                 </td>
                 <td width="33%">
-                    Date: 2019/07/01
+                    Date: unknown
                 </td>
 
             </tr>
         </table>
     </div>
-
     <div id="body">
-        <p>This is a paragraph tag</p> 
-        <br/>
+        <button type="button" onclick="greetMe()">
+            greet me!!
+        </button>
+        <p id="grettings" style="color: green;"></p>
+        <br />
         <a href="../home.html">home</a>
     </div>
     <div id="footer">
