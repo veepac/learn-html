@@ -9,8 +9,18 @@ div#Banner {
 }
 
 div#body {
-    margin-top:75px;
+    margin-top: 75px;
     text-align: center;
+    background-color: lightblue;
+    height: 880px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+}
+
+div#homeBody {
+    margin-top: 75px;
+    left: 0;
     background-color: lightblue;
     height: 880px;
     margin-left: 60px;
